@@ -38,7 +38,6 @@
                 var icon = $("<i class='caret icon " + (orderAttr ? (orderAttr === "desc" ? "down" : "up") : "") + "'></i>"),
                     column  = {
                         index: index,
-                        elem: value,
                         icon: icon,
                         sort: sortAttr,
                         order: orderAttr
